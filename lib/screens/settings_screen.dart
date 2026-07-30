@@ -245,7 +245,8 @@ class _SettingsScreenState extends State<SettingsScreen>
                                       const SizedBox(height: 10),
                                       _SettingToggleTile(
                                         title: '야간 알림 허용',
-                                        subtitle: '늦은 시간에도 필요한 알림을 받을 수 있어요.',
+                                        subtitle:
+                                            '늦은 시간에도(22:00 ~ 08:00) 필요한 알림을 받을 수 있어요.',
                                         value: nightPushEnabled,
                                         onChanged: pushEnabled
                                             ? _handleNightPushToggle
